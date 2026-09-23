@@ -1,0 +1,9 @@
+ADC Sigma-Delta 1 ordine - report golden model
+BW=20000.0 Hz  OSR=128  Fs_mod=5120000.0 Hz  Fs_out=40000.0 Hz
+CIC sinc^3 R=64 M=1  W_interno=19 bit
+FIR taps=15 coef_bits=12
+OUT_BITS=16
+f_test=996.09375 Hz  amp=0.5
+SNR dopo CIC		= 46.23 db  (ENOB 7.39)
+SNR dopo CIC+FIR	= 48.94 db  (ENOB 7.84)
+SQNR teorico 1-ord = 59.8 dB
